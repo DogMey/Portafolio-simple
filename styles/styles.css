@@ -120,3 +120,11 @@ body{
 .presentacion__imagen{
     width: 50%;
 }
+
+@media (max-width: 1200px){
+    
+    .presentacion{
+        flex-direction: column-reverse;
+    }
+    
+}
